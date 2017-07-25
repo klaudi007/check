@@ -1,0 +1,20 @@
+.table_container{
+padding:40px;
+}
+.kdnotification{display:none}
+.kdnotification a{text-shadow:0 1px 0 #444}
+.kdnotification{position:fixed;padding:10px;z-index:20001;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
+.kdnotification .kdnotification-title{color:#fff;font-size:24px;line-height:36px;margin:2px;font-weight:700}
+.kdnotification .kdnotification-content{font-size:16px;line-height:18px;color:#fff}
+.kdnotification .kdnotification-timer{position:absolute;top:21px;right:25px;color:#fff;line-height:15px;text-align:center;font-size:15px;width:20px;height:24px}
+.kdnotification a{position:absolute;cursor:pointer;display:block;top:24px;right:5px;line-height:24px;text-align:center;font-size:24px;text-decoration:none;color:#fff;width:20px;height:24px}
+.kdnotification-title{font-size:18px;line-height:28px;float:none}
+.kdnotification-title{font-size:12px;line-height:16px;font-weight:400;float:none}
+.kdnotification.mini{-webkit-border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px;padding:1px;-webkit-box-shadow:0 0 1px 1px rgba(255,255,255,.1),inset 0 0 2px #000;-moz-box-shadow:0 0 1px 1px rgba(255,255,255,.1),inset 0 0 2px #000;box-shadow:0 0 1px 1px rgba(255,255,255,.1),inset 0 0 2px #000}
+.kdnotification-title{font-size:12px;line-height:16px;font-weight:400;float:none;padding:2px 10px}
+.kdnotification.mini .kdnotification-title p{padding:0 10px}
+.kdnotification.mini.error{background:rgba(185,74,72,.9);font-weight:600}
+.kdnotification.mini.success{background:rgba(70,136,71,.8);font-weight:600}
+
+
+
